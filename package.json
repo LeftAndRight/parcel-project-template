@@ -1,0 +1,26 @@
+{
+  "name": "parcel-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "out-tsc/index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "core-js": "3.6.4",
+    "dayjs": "1.8.19",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "3.3.31",
+    "parcel-bundler": "1.12.4",
+    "shelljs": "0.8.3",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
+  }
+}
